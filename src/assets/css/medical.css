@@ -1,0 +1,38 @@
+#para{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+#para p{
+    text-align: justify;
+}
+.mdclHeading{
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 10%;
+    min-height: 60px;
+    background-color: #890e11;
+    color: #fff;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+   text-align: center;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container div{
+    width: 450px;
+    margin-top: 20px;
+    border: 1px solid #890e11;
+    border-radius: 10px;
+    display: flex;
+    padding: 25px 20px;
+    align-items: center;
+    text-align: center;
+    color: #890e11;
+}

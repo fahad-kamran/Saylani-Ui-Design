@@ -1,0 +1,152 @@
+.carousel{
+    height: 400px;
+}
+.carousel img{
+    height: 400px;
+}
+.uper{
+    width: 90%;
+    margin-left: 5%;
+    background-color: #316DC3;
+    color: #fff;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.center{
+    text-align: center;
+    margin-top: 20px;
+}
+.favicon{
+    width: 40px;
+}
+.paragraph{
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 5%;
+}
+.paragraph p{
+    margin-top: 20px;
+    text-align: justify;
+}
+.saylaniWork{
+    width: 100%;
+    background-color:#2655E8 ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.saylaniWork div{
+    margin-top: 20px;
+width: 250px;
+height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+color: #fff;
+}
+.Icon{
+    width: 50px;
+}
+.bold{
+    font-weight: bold;
+}
+.wwad{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.wwad div{
+    width: 340px;
+    height: 180px;
+    margin-top: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.wwad div img{
+    width: 60px;
+}
+.Mission-Upcoming{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.Mission{
+    width: 700px;
+    background-color: #fff;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Mission div{
+    width: 300px;
+    height: 70px;
+    margin-top: 10px;
+    background-color: #dee0e3;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+}
+.Mission div img{
+    margin: 0px 20px;
+}
+
+.Upcoming{
+    width: 300px;
+    background-color: #fff;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.Upcoming p{
+    text-align: justify;
+}
+.transimg{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 50px;
+}
+.transimg div{
+    width: 220px;
+     overflow: hidden; 
+}
+.transimg div img{
+    width: 100%;
+    transform: scale(1);
+}
+.transimg div img:hover{
+    transition-duration:0.5s ;
+    transform: scale(1.5);
+}
+
+
+  
+@media only screen and (max-width:500px){
+    .carousel{
+        height: 150px !important;
+    }
+    .carousel img{
+        height: 150px !important;
+    }
+    .uper{
+        width: 100%;
+        margin-left: 0%;
+    }
+}

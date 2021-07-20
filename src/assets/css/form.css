@@ -1,0 +1,32 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.form{
+    width: 600px;
+    padding-left: 5%;
+}
+.form-haider{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     padding: 30px; 
+}
+input,select{
+    width: 90%;
+    height: 50px;
+    padding-left: 20px;
+}
+.InputBtn{
+    background-color: #000;
+    color: #fff;
+}
+
+@media screen and (max-width: 650px) {
+    .form{
+        width: 94%;
+        margin-left: 3%;
+    }
+}
